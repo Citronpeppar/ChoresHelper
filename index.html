@@ -2,19 +2,38 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
 	<title>ChoresHelper</title>
 </head>
 <body>
-	<main>
-		<input id="enter" type="text">
-		<input type="button" value="Add Chore" onclick="displayNewChore()">
-		<br>
-		<br>
-		<div id="list">
-			<ul>
-			</ul>
-		</div>
-	</main>
+	<div class="wrapper">
+        <header class="main-head">ChoreHelper</header>
+        <nav class="main-nav">
+        	<!--Dont know if a main nav is needed yet-->
+            <ul>
+                <li><a href="">Nav 1</a></li>
+                <li><a href="">Nav 2</a></li>
+                <li><a href="">Nav 3</a></li>
+            </ul>
+        </nav>
+        <article class="content">
+
+            <h1>Veckans sysslor</h1>
+			<input id="enter" type="text">
+			<input type="button" value="Add Chore" onclick="displayNewChore()">
+			<br>
+			<br>
+			<div id="list">
+				<ul>
+				</ul>
+			</div>
+            <p>In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.</p>
+            
+        </article> 
+        <aside class="side">Points</aside>
+        <div class="ad">Special Quest</div>
+        <footer class="main-footer">@Gillenius</footer>
+</div>
 	
 	<script src="scripts.js"></script>
 </body>

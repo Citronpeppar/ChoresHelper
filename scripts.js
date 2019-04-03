@@ -5,6 +5,8 @@ var savedChores = [
 
 ];
 
+//*document.getElementById("listTwo").children[0].innerHTML += "<li>"+savedChores [savedChores.] + "</li>";
+
 function displayNewChore()
 {
   var theChore = document.getElementById("enter").value;
