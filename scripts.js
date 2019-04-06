@@ -5,7 +5,12 @@ var savedChores = [
 
 ];
 
-//*document.getElementById("listTwo").children[0].innerHTML += "<li>"+savedChores [savedChores.] + "</li>";
+for (var i = 0; i < savedChores.length; i++) {
+
+	document.getElementById('list').innerHTML += "<li class='button'>" + savedChores[i] + "</li>";
+}
+
+
 
 function displayNewChore()
 {
@@ -16,7 +21,7 @@ function displayNewChore()
   }
   savedChores.push(theChore);
 
-document.getElementById('list').children[0].innerHTML += "<li>"+savedChores [savedChores.length-1] + "</li>";
+document.getElementById('list').innerHTML += "<li class='button'>" + savedChores [savedChores.length-1] + "</li>";
 };
 
 
