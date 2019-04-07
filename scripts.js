@@ -25,15 +25,16 @@ document.getElementById('list').innerHTML += "<li class='button'>" + savedChores
 };
 
 
+function changeButtonColor() {
+
+document.getElementById("button").style.backgroundColor = "red";
+
+}
+
+
+
+
 //*console.log (savedChores);
 
 
 
-
-
-//* Puts the item the user writes in the chores array.
-//*chores.push(prompt("Enter a Chore"));
-
-//* A loop for the array. Use to write the list on the page.
-//*for (var i = 0; i < chores.length; i++) {
-//*	chores[i]
