@@ -25,13 +25,23 @@ document.getElementById('list').innerHTML += "<li class='button'>" + savedChores
 };
 
 
-function changeButtonColor() {
+//function changeButtonColor() {
 
-document.getElementById("button").style.backgroundColor = "red";
+//document.getElementById("button").style.backgroundColor = "red";
 
-}
+//}
 
 
+var button = document.querySelector('.button');
+
+button.onclick = function () {
+ var red = 255;
+ //var blue = Math.floor(Math.random() * 256);
+ //var green = Math.floor(Math.random() * 256);
+ 
+
+ this.style.backgroundColor = "rgb(" + red + "," + 0 + "," + 0 + ")";
+};
 
 
 //*console.log (savedChores);
